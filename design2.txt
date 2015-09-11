@@ -1,0 +1,22 @@
+Mia Armstrong
+Assignment 2
+
+Design Write-up
+
+This program consisted of two data classes and three abstract data type classes. I created a product_info class and a store_info class for the data classes, and a ordered_list, queue, and stack for the abstract data type classes. The program creates an ordered list of product_info objects  and compares it to each product_info object stored in a queue of store_info with product_info. If the info does not match, the store and product infor from the queue get passed into a stack. The user can look at the last item in added to the stack, display the stack, display the queue, add and remove things from the ordered_list, and add things to the queue. 
+
+I had some problems implementing a remove function from the ordered list. Since it is an array it doesn't lend it self to removal. I would have liked to use a linear linked list instead of an array for this implementation. It doesn't seem to be very efficient. I think the stack and the queue work well for what the assignment wanted of them. 
+
+I feel like I created an efficient design as far as the data classes and the queue and stack. The ordered list has some design issues. I should have tried harder to get a tutor to make time for me. I think extra help with that class would have made a huge difference. I did complete this assignment with no help from tutors or classmates. I think that I also need to work on time management in the future. 
+
+There are bugs that I could not get to in the code. I was also unable to finish the test bed. I did test each of my functions but I had to alter the test bed to conform to the assignment and therefore did not have time to complete it. If I had more time I would write a better test program. I would also fix the bugs in the ordered list adt. 
+
+I learned a lot about making the different files work together using # include. I also learned a lot about calling functions from the test bed. I feel like I am more prepared for future assignments now. I feel like I still have a lack of understanding of manipulating arrays. 
+
+The store_info and product_info classes I created are very similar and I was thinking I could have combined them into one class with separate versions of functions for each array.  Besides that I feel like the data classes were efficient and used deep copy techniques as well as being memory efficient. 
+
+The ordered list adt was the least efficient of the classes I wrote. I feel that a lack of understanding contributed to that. I got most of the class to work the way I wanted it to though. The remove function was the biggest problem with that class. I should have just made it so the user had to replace each removed feature with another feature. Which I did implement into the add function.
+
+The queue class was implemented well and I think was efficient as well as the stack class. Both classes used pointers sparingly and allocated memory for new nodes properly. I would have liked to add an array of product_info into the queue class instead of a product_info object. I think that would have been more in line with what we were supposed to do for the assignment. Unfortunately I ran out of time to complete that alteration. 
+
+For the next assignment I am going to try even harder to manage my time and to get things done before they have to be turned in late. I am also going to try (again) to access the tutors. 
